@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(227, 227, 227);
+}
+
+#sec-1 {
+  width: 100%;
+  min-height: 900px;
+}
+#sec-1 .welcome {
+  min-height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#sec-1 .readMore img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+#sec-1 .readMore h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#sec-2 {
+  width: 100%;
+  min-height: 450px;
+  background-image: url("https://preview.colorlib.com/theme/crose/img/bg-img/6.jpg");
+}
+#sec-2 .sec-2-1 {
+  width: 100%;
+  min-height: 450px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#sec-2 .place {
+  width: 100%;
+  min-height: 450px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sec-2 .place div {
+  min-height: 300px;
+}
+#sec-2 .place h4 {
+  margin: 30px;
+  color: rgb(183, 6, 6);
+}
+#sec-2 .place h1 {
+  margin: 30px;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+#sec-2 .place button {
+  margin: 30px;
+  width: 200px;
+  height: 50px;
+  color: rgb(183, 6, 6);
+  border: none;
+  background-color: white;
+}
+#sec-2 .place button:hover {
+  background-color: rgb(183, 6, 6);
+  color: white;
+}
+
+#sec-3 {
+  width: 100%;
+  min-height: 900px;
+}
+#sec-3 .welcome {
+  min-height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#sec-3 .readMore .posiation {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+#sec-3 .readMore .posiation .img {
+  width: 100%;
+  height: auto;
+}
+#sec-3 .readMore .posiation .img img {
+  border-radius: 5px;
+  max-width: 100%;
+}
+#sec-3 .readMore .posiation .mar {
+  width: 25%;
+  min-height: 80px;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0px;
+  margin-left: 20px;
+}
+#sec-3 .readMore .start {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(158, 158, 158);
+  margin-bottom: 20px;
+}
+#sec-3 .readMore .icon {
+  display: flex;
+  gap: 20px;
+}
+#sec-3 .readMore .icon i {
+  margin-top: 6px;
+}
+#sec-3 .readMore img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+#sec-3 .readMore h1 {
+  font-weight: 800;
+  font-size: 30px;
+}
+#sec-3 .readMore h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#sec-4 {
+  width: 100%;
+  min-height: 200px;
+  margin-bottom: 20px;
+  background-image: url("https://preview.colorlib.com/theme/crose/img/bg-img/24.jpg");
+}
+#sec-4 .sec-4-1 {
+  width: 100%;
+  min-height: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sec-4 .sec-4-1 .EVENTS {
+  width: 100%;
+  min-height: 70px;
+  color: white;
+}
+
+#sec-5 {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+#sec-5 .sec-5-1 {
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#sec-5 .sec-5-1 .photo {
+  width: 20%;
+  height: auto;
+}
+#sec-5 .sec-5-1 .photo img {
+  width: 100%;
+}
+
+#sec-6 {
+  width: 100%;
+  min-height: 720px;
+}
+#sec-6 .welcome {
+  min-height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#sec-6 .readMore img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+#sec-6 .readMore h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  width: 100%;
+  min-height: 120px;
+  background-color: rgb(178, 2, 2);
+}
+footer button {
+  width: 30%;
+  height: 50px;
+  background-color: red;
+  border: none;
+  color: white;
+}
+footer button:hover {
+  background-color: black;
+  color: white;
+}
+footer input {
+  width: 65%;
+  height: 50px;
+  padding-left: 20px;
+}

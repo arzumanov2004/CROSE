@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ background-color: rgb(227, 227, 227);
+}
+#sec-1{
+    width: 100%;
+    min-height: 900px;
+    .welcome{
+        min-height: 300px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .readMore{
+        img{
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+        h3{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}
+#sec-2{
+    width: 100%;
+    min-height: 450px;
+    background-image: url("https://preview.colorlib.com/theme/crose/img/bg-img/6.jpg");
+    .sec-2-1{
+        width: 100%;
+        min-height: 450px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .place{
+        width: 100%;
+        min-height: 450px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        div{
+            min-height: 300px;
+        }
+        h4{
+            margin: 30px;
+            color: rgb(183, 6, 6);
+        }
+        h1{
+            margin: 30px;
+            font-size: 40px;
+            font-weight: 700;
+            color: white;
+        }
+        button{
+            margin: 30px;
+            width: 200px;
+            height: 50px;
+            color: rgb(183, 6, 6);
+            border: none;
+            background-color: white;
+
+        }
+        button:hover{
+            background-color: rgb(183, 6, 6);
+            color: white;
+        }
+    }
+}
+#sec-3{
+    width: 100%;
+    min-height: 900px;
+    .welcome{
+        min-height: 300px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .readMore{
+
+        .posiation{
+            width: 100%;
+            height: auto;
+            position: relative;
+            .img{
+                width: 100%;
+                height: auto;
+               
+                img{
+                    border-radius: 5px;
+                    max-width: 100%;
+                  
+                }
+            }
+            .mar{
+                width: 25%;
+                min-height: 80px;
+                background-color: white;
+                text-align: center;
+                border-radius: 5px;
+                position: absolute;
+                bottom: 0px;
+               margin-left: 20px;
+            }
+        }
+        .start{
+            width: 100%;
+            min-height: 100px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid rgb(158, 158, 158);
+            margin-bottom: 20px;
+        }
+        .icon{
+            display: flex;
+           
+            gap: 20px;
+            i{
+                margin-top: 6px;
+                
+            }
+        }
+        img{
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+        h1{
+            font-weight: 800;
+            font-size: 30px;
+        }
+        h3{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}
+#sec-4{
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 20px;
+    background-image: url("https://preview.colorlib.com/theme/crose/img/bg-img/24.jpg");
+    .sec-4-1{
+        width: 100%;
+        min-height: 200px;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .EVENTS{
+            width: 100%;
+            min-height: 70px;
+            color: white;
+
+        }
+    }
+   
+}
+#sec-5{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    .sec-5-1{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        display: flex;
+        margin-top: 20px;
+        padding-top: 20px;
+       .photo{
+        width: 20%;
+        height: auto;
+        img{
+            width: 100%;
+            
+        }
+       }
+    }
+}
+#sec-6{
+    width: 100%;
+    min-height: 720px;
+    .welcome{
+        min-height: 200px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .readMore{
+        img{
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+        h3{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}
+footer{
+    width: 100%;
+    min-height: 120px;
+    background-color: rgb(178, 2, 2);
+    button{
+        width: 30%;
+        height: 50px;
+        background-color: red;
+        border: none;
+        color: white;
+    }
+    button:hover{
+        background-color: black;
+        color: white;
+    }
+    input{
+        width:65%;
+        height: 50px;
+        padding-left: 20px;
+    }
+}
